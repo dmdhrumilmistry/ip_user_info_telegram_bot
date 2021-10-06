@@ -6,9 +6,15 @@ Telegram Bot which can retrieve IP information
   ```bash
   git clone https://github.com/dmdhrumilmistry/ip_user_info_telegram_bot.git
   ```
-- cd ip_user_info_telegram_bot
+- change directory to ip_user_info_telegram_bot
+  ```bash
+  cd ip_user_info_telegram_bot
+  ```
 - Update ipinfo.io and Telegram tokens in main.py on line 5 and 6 respectively.
-- start 
+- Start Telegram bot
+  ```bash
+  python3 main.py
+  ```
 
 ## Get Telegram bot token
 - Get token from [Bot Father](https://t.me/botfather)
