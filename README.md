@@ -1,4 +1,4 @@
-# User IP info bot
+# IP User info bot
 Telegram Bot which can retrieve IP information
 
 ## Installation
@@ -10,8 +10,12 @@ Telegram Bot which can retrieve IP information
   ```bash
   cd ip_user_info_telegram_bot
   ```
+- Install requirements
+  ```bash
+  pip3 install -r requirements.txt
+  ```
 - Update ipinfo.io and Telegram tokens in main.py on line 5 and 6 respectively.
-- Start Telegram bot
+- Start bot
   ```bash
   python3 main.py
   ```
@@ -34,6 +38,12 @@ Telegram Bot which can retrieve IP information
 |/start|get chat id and user details|
 |/help|get help menu|
 |/getinfo [IP]|get details of IP|
+
+## Requirements
+- `Python`
+  - PyTelegramBotAPI
+- `Telegram Bot Token`
+- `Ipinfo Access Token`
 
 ### Have any Ideas 💡 or issue
 - Create an issue
